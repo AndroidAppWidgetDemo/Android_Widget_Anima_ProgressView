@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnimaProgressBar">
+        <!--进度颜色-->
+        <attr name="progress_height" format="dimension" />
+        <!--左右padding-->
+        <attr name="progress_padding_left_right" format="dimension" />
+        <!--圆角大小-->
+        <attr name="progress_radius" format="dimension" />
+        <!--进度颜色-->
+        <attr name="progress_color" format="color" />
+        <!--背景颜色-->
+        <attr name="progress_bg_color" format="color" />
+        <!--进度-->
+        <attr name="progress" format="float" />
+        <!--蒙板-->
+        <attr name="progress_masker" format="integer" />
+
+    </declare-styleable>
+
+</resources>

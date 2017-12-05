@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <com.toast.demo.AnimaProgressBar
+        android:id="@+id/common_progress"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:layout_centerVertical="true"
+        app:progress="5"
+        app:progress_bg_color="#dcdcdc"
+        app:progress_color="@android:color/transparent"
+        app:progress_height="4dp"
+        app:progress_masker="@drawable/wminutes_progress"
+        app:progress_padding_left_right="3dp"
+        app:progress_radius="2dp"></com.toast.demo.AnimaProgressBar>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/wminutes_progress"
+        android:text="adfadfasdfasdfadf"></Button>
+
+</RelativeLayout>
